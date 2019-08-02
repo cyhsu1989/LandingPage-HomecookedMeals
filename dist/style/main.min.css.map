@@ -5,7 +5,8 @@
         "../../src/sass/main.scss",
         "../../src/sass/abstracts/_colors.scss",
         "../../src/sass/abstracts/_typography.scss",
-        "../../src/sass/abstracts/_general.scss"
+        "../../src/sass/abstracts/_general.scss",
+        "../../src/sass/abstracts/_functions.scss"
     ],
     "names": [],
     "file": "main.min.css"
