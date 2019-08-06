@@ -1,12 +1,13 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AKAA,OAAO,CAAC,6EAAI;AAEZ,AAAA,IAAI,CAAC;EACD,KAAK,EJIF,OAAO;EIHV,WAAW,EHHL,MAAM,EAAE,UAAU;EGIxB,SAAS,EAAE,IAAI;EACf,WAAW,EHHJ,GAAG;EGIV,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC;AACD,MAAM;AACN,UAAU,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,EAAE;AACF,EAAE,CAAC;EACC,WAAW,EHvBJ,eAAe,EAAE,OAAO;CGwBlC;;AAED,AAAA,EAAE,CAAC;EACC,KAAK,EJnBF,OAAO;EIoBV,SAAS,EAAE,SAAS;EACpB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;EACzB,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,WAAW,CAAC;EACR,KAAK,EJhCF,IAAI;EIiCP,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CACnB;;AAGI,AAAD,eAAQ,CAAC;EACL,KAAK,EJ3CH,OAAO;EI4CT,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,CAAC;CACjB;;AAEA,AAAD,kBAAW,CAAC;EACR,KAAK,EJ3CN,OAAO;EI4CN,SAAS,EAAE,OAAO;EAClB,WAAW,EH/CP,GAAG;EGgDP,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,IAAI;CACnB",
     "sources": [
         "../../src/sass/main.scss",
         "../../src/sass/abstracts/_colors.scss",
         "../../src/sass/abstracts/_typography.scss",
         "../../src/sass/abstracts/_general.scss",
-        "../../src/sass/abstracts/_functions.scss"
+        "../../src/sass/abstracts/_functions.scss",
+        "../../src/sass/base/_typography.scss"
     ],
     "names": [],
     "file": "main.css"

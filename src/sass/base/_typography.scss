@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:300,400,900');
+
+body {
+    color: gray(4);
+    font-family: $ff-sans;
+    font-size: 1rem;
+    font-weight: $fw-light;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: $ff-serif;
+}
+
+h3 {
+    color: gray(5);
+    font-size: 1.3125rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.main-title {
+    color: gray(1);
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.section {
+    &__title {
+        color: $primary;
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    &__subtitle {
+        color: gray(3);
+        font-size: 1.68rem;
+        font-weight: $fw-normal;
+        line-height: 1.1;
+        margin-top: .5em;
+    }
+}
