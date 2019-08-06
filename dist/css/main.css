@@ -101,4 +101,20 @@ a {
 .logo {
   display: none;
 }
+
+.section--home {
+  background: url(/src/images/hero-bg.jpg);
+  background-size: cover;
+  padding: 10em 2em;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
