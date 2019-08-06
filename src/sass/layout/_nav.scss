@@ -1,0 +1,24 @@
+.nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: $spacer;
+}
+
+ul {
+    font-family: $ff-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: gray(1);
+    text-decoration: none;
+}
+
+.logo {
+    display: none;
+}
