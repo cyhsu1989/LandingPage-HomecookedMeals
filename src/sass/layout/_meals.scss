@@ -11,10 +11,6 @@
         margin-bottom: $spacer;
     }
 
-    &__image {
-        display: block;
-    }
-
     &__caption {
         position: absolute;
         background: rgba(gray(5), .5);
