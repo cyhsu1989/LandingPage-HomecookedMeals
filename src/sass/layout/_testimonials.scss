@@ -7,6 +7,10 @@
     box-shadow: $box-shadow;
     margin-bottom: $spacer;
 
+    &__image {
+        display: block;
+    }
+
     &__body {
         padding: $spacer;
     }

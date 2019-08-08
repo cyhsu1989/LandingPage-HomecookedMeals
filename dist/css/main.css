@@ -82,7 +82,6 @@ body {
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -184,6 +183,10 @@ a {
   margin-bottom: 2em;
 }
 
+.meals__image {
+  display: block;
+}
+
 .meals__caption {
   position: absolute;
   background: rgba(33, 33, 33, 0.5);
@@ -213,6 +216,10 @@ a {
   -webkit-box-shadow: 0 0 0.5em rgba(157, 157, 157, 0.65);
           box-shadow: 0 0 0.5em rgba(157, 157, 157, 0.65);
   margin-bottom: 2em;
+}
+
+.testimonial__image {
+  display: block;
 }
 
 .testimonial__body {
