@@ -44,6 +44,10 @@ h3 {
         color: $primary;
         font-size: 3rem;
         line-height: 1;
+
+        &--white {
+            color: gray(1);
+        }
     }
 
     &__subtitle {

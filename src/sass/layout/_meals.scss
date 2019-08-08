@@ -1,0 +1,31 @@
+.section--meals {
+    background: url(/src/images/meals-bg.jpg);
+    color: gray(1);
+}
+
+.meals {
+    font-weight: $fw-normal;
+
+    &__meal {
+        position: relative;
+        margin-bottom: $spacer;
+    }
+
+    &__image {
+        display: block;
+    }
+
+    &__caption {
+        position: absolute;
+        background: rgba(gray(5), .5);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: $spacer;
+    }
+
+    &__title {
+        color: gray(1);
+        margin-top: 0;
+    }
+}
