@@ -1,0 +1,11 @@
+@mixin underline($bg: currentColor, $margin: $spacer, $height: 1px, $width: 25%) {
+    &::after {
+        content: '';
+        display: block;
+        background: $bg;
+        margin: $margin auto;
+        width: $width;
+        height: $height;
+        @content;
+    }
+}

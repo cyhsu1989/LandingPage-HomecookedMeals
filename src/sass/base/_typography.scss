@@ -52,5 +52,7 @@ h3 {
         font-weight: $fw-normal;
         line-height: 1.1;
         margin-top: .5em;
+
+        @include underline;
     }
 }
