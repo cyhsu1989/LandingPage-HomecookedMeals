@@ -12,6 +12,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 a {
@@ -21,4 +22,10 @@ a {
 
 .logo {
     display: none;
+
+    @include mq(small) {
+        display: inline-block;
+        fill: gray(1);
+        width: 120px;
+    }
 }

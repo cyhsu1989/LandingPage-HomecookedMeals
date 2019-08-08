@@ -61,6 +61,6 @@ p {
         line-height: 1.1;
         margin-top: .5em;
 
-        @include underline;
+        @include underline();
     }
 }

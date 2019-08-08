@@ -109,6 +109,9 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 a {
@@ -118,6 +121,14 @@ a {
 
 .logo {
   display: none;
+}
+
+@media only screen and (min-width: 450px) {
+  .logo {
+    display: inline-block;
+    fill: #fff;
+    width: 120px;
+  }
 }
 
 .section--home {
@@ -145,6 +156,13 @@ a {
   background: #F3F3F3;
 }
 
+@media only screen and (min-width: 450px) {
+  .facts__text {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
 .section--meals {
   background: url(/src/images/meals-bg.jpg);
   color: #fff;
@@ -152,6 +170,13 @@ a {
 
 .meals {
   font-weight: 400;
+}
+
+@media only screen and (min-width: 450px) {
+  .meals {
+    max-width: 450px;
+    margin: 0 auto;
+  }
 }
 
 .meals__meal {
@@ -175,6 +200,13 @@ a {
 
 .testimonials {
   margin-top: 2em;
+}
+
+@media only screen and (min-width: 450px) {
+  .testimonials {
+    max-width: 450px;
+    margin: 0 auto;
+  }
 }
 
 .testimonial {

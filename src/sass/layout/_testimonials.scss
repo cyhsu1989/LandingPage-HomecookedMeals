@@ -1,5 +1,6 @@
 .testimonials {
     margin-top: $spacer;
+    @include limit-width();
 }
 
 .testimonial {

@@ -5,6 +5,7 @@
 
 .meals {
     font-weight: $fw-normal;
+    @include limit-width();
 
     &__meal {
         position: relative;

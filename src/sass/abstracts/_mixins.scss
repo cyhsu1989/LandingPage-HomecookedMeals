@@ -9,3 +9,17 @@
         @content;
     }
 }
+
+@mixin mq($size) {
+    $value: map-get($breakpoints, $size);
+    @media only screen and (min-width: $value) {
+        @content;
+    }
+}
+
+@mixin limit-width() {
+    @include mq(small) {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
