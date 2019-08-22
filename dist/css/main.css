@@ -9,6 +9,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 450px) {
+  body {
+    font-size: 1.125rem;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -43,10 +49,22 @@ p {
   line-height: 1.2;
 }
 
+@media only screen and (min-width: 450px) {
+  .main-title {
+    font-size: 5rem;
+  }
+}
+
 .section__title {
   color: #F55D3E;
   font-size: 3rem;
   line-height: 1;
+}
+
+@media only screen and (min-width: 450px) {
+  .section__title {
+    font-size: 3.75rem;
+  }
 }
 
 .section__title--white {
