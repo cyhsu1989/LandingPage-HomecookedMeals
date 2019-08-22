@@ -8,6 +8,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: $spacer;
         text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
 
         &__title,
         &__subtitle,
