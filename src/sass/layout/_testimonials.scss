@@ -1,6 +1,10 @@
 .testimonials {
-    margin-top: $spacer;
     @include limit-width();
+    margin-top: $spacer;
+    
+    @include mq(big) {
+        @include grid();
+    }
 }
 
 .testimonial {

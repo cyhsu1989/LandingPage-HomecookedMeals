@@ -29,4 +29,8 @@
         color: gray(1);
         margin-top: 0;
     }
+
+    @include mq(big) {
+        @include grid();
+    }
 }

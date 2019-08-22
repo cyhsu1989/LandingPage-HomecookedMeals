@@ -18,8 +18,13 @@
 }
 
 @mixin limit-width() {
-    @include mq(small) {
-        max-width: 450px;
-        margin: 0 auto;
-    }
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+@mixin grid($cols: 3) {
+    display: grid;
+    grid: auto-flow / repeat($cols, 1fr);
+    grid-gap: $spacer;
+    max-width: 1200px;
 }
