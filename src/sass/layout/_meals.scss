@@ -10,6 +10,13 @@
     &__meal {
         position: relative;
         margin-bottom: $spacer;
+        overflow: hidden;
+
+        &:hover {
+            .meals__caption {
+                transform: translateY(0%);
+            }
+        }
     }
 
     &__image {
@@ -23,6 +30,8 @@
         right: 0;
         bottom: 0;
         padding: $spacer;
+        transform: translateY(100%);
+        transition: transform 300ms ease-in-out;
     }
 
     &__title {
