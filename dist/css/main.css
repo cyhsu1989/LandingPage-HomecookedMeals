@@ -151,7 +151,7 @@ a {
 }
 
 .section--home {
-  background: url(/src/images/hero-bg.jpg);
+  background: url(../../src/images/hero-bg.jpg);
   background-size: cover;
   padding: 10em 2em;
   min-height: 80vh;
@@ -222,7 +222,7 @@ a {
 }
 
 .section--meals {
-  background: url(/src/images/meals-bg.jpg);
+  background: url(../../src/images/meals-bg.jpg);
   color: #fff;
 }
 
