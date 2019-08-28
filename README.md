@@ -4,6 +4,7 @@
 
 ## 說明
 
-* 一頁式 Landing Page。
+* Landing Page。
 * RWD (Mobile First)。
 * 使用 SASS (SCSS) 設計 Style。
+* 使用 CSS Grid 處理較複雜的 Layout。
