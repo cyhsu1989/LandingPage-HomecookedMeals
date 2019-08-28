@@ -6,4 +6,4 @@
 
 * 一頁式 Landing Page。
 * RWD (Mobile First)。
-* 使用 SASS (SCSS) 。
+* 使用 SASS (SCSS) 設計 Style。
