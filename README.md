@@ -2,7 +2,7 @@
 
 ## Live Demo 網址
 
-[DEMO 網址](https://cyhsu1989.github.io/LandingPage-HomecookedMeals/)
+[Demo](https://cyhsu1989.github.io/LandingPage-HomecookedMeals/)
 
 
 
